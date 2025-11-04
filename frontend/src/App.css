@@ -1,0 +1,64 @@
+/* App.css */
+.app {
+  min-height: 100vh;
+}
+
+.app-header {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.app-header p {
+  color: #666;
+  font-size: 18px;
+}
+
+.app-content {
+  margin-top: 20px;
+}
+
+.btn-new-user {
+  background: #27ae60;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+}
+
+.btn-new-user:hover {
+  background: #229954;
+}
+
+.error-message {
+  background: #e74c3c;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.loading {
+  background: #3498db;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
